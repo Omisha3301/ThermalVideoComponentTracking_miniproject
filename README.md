@@ -2,7 +2,7 @@
 ## TASK
 Use OpenCV with the [video](https://drive.google.com/file/d/1PWS2MoFphHwTwblN82QZZbYqEmycN0Jj/view?usp=sharing) provided to find components(4 or 8 connected components) in the video that have a frequency of 0-1 Hz. 
 ## Attempt
-My code for this task is in task_code.ipynb in the Task folder of this repository.\\
+My code for this task is in task_code.ipynb in the Task folder of this repository.\ \
 The code calculates the 8 connected components in a frame and then tracks the intensity of these areas for the next 511 frames, prints what it has tracked, and plots a frequency domain graph for each component tracked, then repeats the process.
 #### Usage of mean intensity, instead of centroid's intensity
 The centroid of the component detected in the first frame, might not have a significant intensity change in the consequent frames. However, the intensity of the areas covered by the rest of the component might change drastically which would not be detected.
