@@ -14,6 +14,12 @@ I have used the following versions for this mini-project:
 - opencv-python==4.9.0.80
 - pandas==2.1.4
 - cvzone==1.6.1
+
+## Output
+- The script will process the video frame-by-frame, analyzing connected components and computing their dominant frequencies.
+- After every 512 frames tracked components and their dominant frequencies, will be printed.
+- The processed video with overlay will be saved as 'Thresh_overlay_frame.mp4' in the same directory.
+- After the video is stopped, a DataFrame containing the frame ranges, component labels, and dominant frequencies below 1 Hz will be displayed.
   
 ## Acknowledgement
 I would like to express my gratitude to Prof. Nipun Batra for this opportunity. I also wish to thank the project lead, Mr. Rishiraj Adhikary, for responding to all my queries and giving me helpful advice and suggestions. These tasks motivated me to learn more about image processing and analog signals.
