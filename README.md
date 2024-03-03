@@ -1,5 +1,5 @@
 # Thermal Video Component Tracking with Frequency Analysis 
-## TASK
+## Task
 Use OpenCV with the [video](https://drive.google.com/file/d/1PWS2MoFphHwTwblN82QZZbYqEmycN0Jj/view?usp=sharing) provided to find components(4 or 8 connected components) in the video that have a frequency of 0-1 Hz. 
 ## Attempt
 My code for this task is in task_code.ipynb in the Task folder of this repository.     
