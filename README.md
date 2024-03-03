@@ -16,7 +16,7 @@ I have used the following versions for this mini-project:
 - cvzone==1.6.1
 
 ## Output
-- The script will process the video frame-by-frame, analyzing connected components and computing their dominant frequencies.
+- The program will process the video frame-by-frame, analyzing connected components and computing their dominant frequencies.
 - After every 512 frames tracked components and their dominant frequencies, will be printed.
 - The processed video with overlay will be saved as 'Thresh_overlay_frame.mp4' in the same directory.
 - After the video is stopped, a DataFrame containing the frame ranges, component labels, and dominant frequencies below 1 Hz will be displayed.
