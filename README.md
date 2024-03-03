@@ -7,7 +7,7 @@ My code for this task is in task_code.ipynb in the Task folder of this repositor
 The code tracks 4 connected components in a video frame-by-frame(every 512 frames), analyzes their intensity, and computes the dominant frequency of intensity variations using Fast Fourier Transform (FFT).
 
 ## Requirements
-I have used the following versions for this mini-project: 
+The following versions were used for this mini-project: 
 - python 3.12.0
 - matplotlib==3.8.3
 - numpy==1.26.3
