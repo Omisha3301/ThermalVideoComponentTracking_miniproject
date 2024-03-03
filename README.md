@@ -2,11 +2,9 @@
 ## TASK
 Use OpenCV with the [video](https://drive.google.com/file/d/1PWS2MoFphHwTwblN82QZZbYqEmycN0Jj/view?usp=sharing) provided to find components(4 or 8 connected components) in the video that have a frequency of 0-1 Hz. 
 ## Attempt
-My code for this task is in task_code.ipynb in the Task folder of this repository     
+My code for this task is in task_code.ipynb in the Task folder of this repository.     
 
 The code tracks 4 connected components in a video frame-by-frame(every 512 frames), analyzes their intensity, and computes the dominant frequency of intensity variations using Fast Fourier Transform (FFT).
-##### Usage of mean intensity, instead of centroid's intensity
-The centroid of the component detected in the first frame, might not have a significant intensity change in the consequent frames. However, the intensity of the areas covered by the rest of the component might change drastically which would not be detected.
 
 ## Requirements
 I have used the following versions for this mini-project: 
@@ -18,7 +16,7 @@ I have used the following versions for this mini-project:
 - cvzone==1.6.1
   
 ## Acknowledgement
-I would like to express my gratitude to Prof. Nipun Batra for this opportunity. I also wish to thank the project lead, Mr. Rishiraj Adhikary, for responding to all my queries and giving me helpful advice and suggestions. These tasks motivated me to learn more about image processing.
+I would like to express my gratitude to Prof. Nipun Batra for this opportunity. I also wish to thank the project lead, Mr. Rishiraj Adhikary, for responding to all my queries and giving me helpful advice and suggestions. These tasks motivated me to learn more about image processing and analog signals.
 ## References
 -  [https://pyimagesearch.com/2021/02/22/opencv-connected-component-labeling-and-analysis/](https://pyimagesearch.com/2021/02/22/opencv-connected-component-labeling-and-analysis/)
 -  [https://www.geeksforgeeks.org/python-opencv-connected-component-labeling-and-analysis/](https://www.geeksforgeeks.org/python-opencv-connected-component-labeling-and-analysis/)
