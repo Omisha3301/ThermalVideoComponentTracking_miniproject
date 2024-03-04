@@ -19,10 +19,10 @@ The following versions were used for this mini-project:
 - The program will process the video frame-by-frame, analyzing connected components and computing their dominant frequencies.
 - After every 512 frames, tracked components and their dominant frequencies, will be printed.
 - The processed video with overlay will be saved as 'Thresh_overlay_frame.mp4' in the same directory.
-- After the video is stopped, a DataFrame containing the frame ranges, component labels, and dominant frequencies below 1 Hz will be displayed.
+- After the video is stopped, a DataFrame containing the frame range, component label, and dominant frequency of 4 connected components below 1 Hz will be displayed.
   
 ## Acknowledgement
-I would like to express my gratitude to Prof. Nipun Batra for this opportunity. I also wish to thank the project lead, Mr. Rishiraj Adhikary, for responding to all my queries and giving me helpful advice and suggestions. These tasks motivated me to learn more about image processing and analog signals.
+I would like to express my gratitude to Prof. Nipun Batra for this opportunity. I also wish to thank the project lead, Mr. Rishiraj Adhikary, for responding to all my queries and giving me helpful advice and suggestions. This task motivated me to learn more about image processing and analog signals.
 ## References
 -  [https://pyimagesearch.com/2021/02/22/opencv-connected-component-labeling-and-analysis/](https://pyimagesearch.com/2021/02/22/opencv-connected-component-labeling-and-analysis/)
 -  [https://www.geeksforgeeks.org/python-opencv-connected-component-labeling-and-analysis/](https://www.geeksforgeeks.org/python-opencv-connected-component-labeling-and-analysis/)
