@@ -17,7 +17,7 @@ The following versions were used for this mini-project:
 
 ## Output
 - The program will process the video frame-by-frame, analyzing connected components and computing their dominant frequencies.
-- After every 516 frames, tracked components and their dominant frequencies, will be printed.
+- After every 516 frames, tracked components' intensity in each frame and their dominant frequency will be printed.
 - The processed video with overlay will be saved as 'Thresh_overlay_frame.mp4' in the same directory.
 - After the video is stopped, a DataFrame containing the frame range, component label, and dominant frequency of 8 connected components below 1 Hz will be displayed.
   
