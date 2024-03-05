@@ -4,7 +4,7 @@ Use OpenCV with the [video](https://drive.google.com/file/d/1PWS2MoFphHwTwblN82Q
 ## Attempt
 My code for this task is in task_code.ipynb in the Task folder of this repository.     
 
-The code tracks 8 connected components in a video frame-by-frame(every 512 frames), analyzes their intensity, and computes the dominant frequency of intensity variations using Fast Fourier Transform (FFT).
+The code tracks 8 connected components in a video frame-by-frame(every 516 frames), analyzes their intensity, and computes the dominant frequency of intensity variations using Fast Fourier Transform (FFT).
 
 ## Requirements
 The following versions were used for this mini-project: 
@@ -19,7 +19,7 @@ The following versions were used for this mini-project:
 - The program will process the video frame-by-frame, analyzing connected components and computing their dominant frequencies.
 - After every 512 frames, tracked components and their dominant frequencies, will be printed.
 - The processed video with overlay will be saved as 'Thresh_overlay_frame.mp4' in the same directory.
-- After the video is stopped, a DataFrame containing the frame range, component label, and dominant frequency of 4 connected components below 1 Hz will be displayed.
+- After the video is stopped, a DataFrame containing the frame range, component label, and dominant frequency of 8 connected components below 1 Hz will be displayed.
   
 ## Acknowledgement
 I would like to express my gratitude to Prof. Nipun Batra for this opportunity. I also wish to thank the project lead, Mr. Rishiraj Adhikary, for responding to all my queries and giving me helpful advice and suggestions. This task motivated me to learn more about image processing and analog signals.
